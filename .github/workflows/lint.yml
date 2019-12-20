@@ -19,8 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install pipenv
-          pipenv install black --dev
+          python -m pip install black
 
       - name: Run black
         run: black .
