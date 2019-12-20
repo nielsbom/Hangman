@@ -1,6 +1,8 @@
 # the hangman graphics
-hangmanSteps = range(0,8)
-hangmanSteps[0] = '''
+hangmanSteps = range(0, 8)
+hangmanSteps[
+    0
+] = """
   +---+
   |   |
       |
@@ -9,31 +11,37 @@ hangmanSteps[0] = '''
       |
       |
 =========
-'''
+"""
 
-hangmanSteps[1] = '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-      |
-=========
-'''
-
-hangmanSteps[2] = '''
+hangmanSteps[
+    1
+] = """
   +---+
   |   |
   O   |
+      |
+      |
+      |
+      |
+=========
+"""
+
+hangmanSteps[
+    2
+] = """
+  +---+
+  |   |
+  O   |
   |   |
       |
       |
       |
 =========
-'''
+"""
 
-hangmanSteps[3] = '''
+hangmanSteps[
+    3
+] = """
   +---+
   |   |
   O   |
@@ -42,9 +50,11 @@ hangmanSteps[3] = '''
       |
       |
 =========
-'''
+"""
 
-hangmanSteps[4] = '''
+hangmanSteps[
+    4
+] = """
   +---+
   |   |
   O   |
@@ -53,9 +63,11 @@ hangmanSteps[4] = '''
       |
       |
 =========
-'''
+"""
 
-hangmanSteps[5] = '''
+hangmanSteps[
+    5
+] = """
   +---+
   |   |
   O   |
@@ -64,9 +76,11 @@ hangmanSteps[5] = '''
       |
       |
 =========
-'''
+"""
 
-hangmanSteps[6] = '''
+hangmanSteps[
+    6
+] = """
   +---+
   |   |
   O   |
@@ -75,9 +89,11 @@ hangmanSteps[6] = '''
  |    |
       |
 =========
-'''
+"""
 
-hangmanSteps[7] = '''
+hangmanSteps[
+    7
+] = """
   +---+
   |   |
   O   |
@@ -86,4 +102,4 @@ hangmanSteps[7] = '''
  | |  |
       |
 =========
-'''
+"""
